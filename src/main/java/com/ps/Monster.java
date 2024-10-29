@@ -8,4 +8,9 @@ public class Monster {
     public Monster() {
     }
 
+    public Monster(int limbs, int age, String habitat) {
+        this.limbs = limbs;
+        this.age = age;
+        this.habitat = habitat;
+    }
 }
